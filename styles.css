@@ -1,0 +1,38 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #000000, #434343);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 150, 0.4);
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #00c896;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
